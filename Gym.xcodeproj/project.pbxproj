@@ -15,6 +15,13 @@
 		CEFD9BC22395859400D407F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFD9BC02395859400D407F5 /* LaunchScreen.storyboard */; };
 		CEFD9BCD2395859400D407F5 /* GymTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD9BCC2395859400D407F5 /* GymTests.swift */; };
 		CEFD9BD82395859400D407F5 /* GymUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD9BD72395859400D407F5 /* GymUITests.swift */; };
+		CEFD9BE6239585D300D407F5 /* GymData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD9BE5239585D300D407F5 /* GymData.swift */; };
+		CEFD9BE82395860A00D407F5 /* GymList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD9BE72395860A00D407F5 /* GymList.swift */; };
+		CEFD9BEA239587A900D407F5 /* gymEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD9BE9239587A900D407F5 /* gymEditor.swift */; };
+		CEFD9BEC23958AE000D407F5 /* GymRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD9BEB23958AE000D407F5 /* GymRow.swift */; };
+		CEFD9BEE23958DB200D407F5 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD9BED23958DB200D407F5 /* PieChart.swift */; };
+		CEFD9BF023958DCD00D407F5 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD9BEF23958DCD00D407F5 /* CircleView.swift */; };
+		CEFD9BF223958DE000D407F5 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD9BF123958DE000D407F5 /* Main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		CEFD9BD32395859400D407F5 /* GymUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFD9BD72395859400D407F5 /* GymUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymUITests.swift; sourceTree = "<group>"; };
 		CEFD9BD92395859400D407F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFD9BE5239585D300D407F5 /* GymData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymData.swift; sourceTree = "<group>"; };
+		CEFD9BE72395860A00D407F5 /* GymList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymList.swift; sourceTree = "<group>"; };
+		CEFD9BE9239587A900D407F5 /* gymEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gymEditor.swift; sourceTree = "<group>"; };
+		CEFD9BEB23958AE000D407F5 /* GymRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymRow.swift; sourceTree = "<group>"; };
+		CEFD9BED23958DB200D407F5 /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		CEFD9BEF23958DCD00D407F5 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		CEFD9BF123958DE000D407F5 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +116,13 @@
 				CEFD9BB52395858B00D407F5 /* AppDelegate.swift */,
 				CEFD9BB72395858B00D407F5 /* SceneDelegate.swift */,
 				CEFD9BB92395858B00D407F5 /* ContentView.swift */,
+				CEFD9BE5239585D300D407F5 /* GymData.swift */,
+				CEFD9BE72395860A00D407F5 /* GymList.swift */,
+				CEFD9BED23958DB200D407F5 /* PieChart.swift */,
+				CEFD9BEF23958DCD00D407F5 /* CircleView.swift */,
+				CEFD9BF123958DE000D407F5 /* Main.swift */,
+				CEFD9BEB23958AE000D407F5 /* GymRow.swift */,
+				CEFD9BE9239587A900D407F5 /* gymEditor.swift */,
 				CEFD9BBB2395859400D407F5 /* Assets.xcassets */,
 				CEFD9BC02395859400D407F5 /* LaunchScreen.storyboard */,
 				CEFD9BC32395859400D407F5 /* Info.plist */,
@@ -267,9 +288,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEFD9BF223958DE000D407F5 /* Main.swift in Sources */,
+				CEFD9BF023958DCD00D407F5 /* CircleView.swift in Sources */,
 				CEFD9BB62395858B00D407F5 /* AppDelegate.swift in Sources */,
+				CEFD9BEE23958DB200D407F5 /* PieChart.swift in Sources */,
+				CEFD9BE82395860A00D407F5 /* GymList.swift in Sources */,
+				CEFD9BEA239587A900D407F5 /* gymEditor.swift in Sources */,
+				CEFD9BEC23958AE000D407F5 /* GymRow.swift in Sources */,
 				CEFD9BB82395858B00D407F5 /* SceneDelegate.swift in Sources */,
 				CEFD9BBA2395858B00D407F5 /* ContentView.swift in Sources */,
+				CEFD9BE6239585D300D407F5 /* GymData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
